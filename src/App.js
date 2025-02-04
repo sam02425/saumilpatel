@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { Bar } from 'react-chartjs-2';
 import { Mail, Phone, Github, Linkedin, ChevronDown, ChevronUp, BarChart, Code, BookOpen, Star } from 'lucide-react';
 import './App.css';  // Import the CSS file
+import 'chart.js/auto';  // Automatically registers Chart.js components
+
 
 const Portfolio = () => {
   const [expandedItems, setExpandedItems] = useState({});
