@@ -1,6 +1,6 @@
 # Saumil Patel Portfolio
 
-Welcome to the official portfolio of **Saumil Patel**, a **Computer Vision Engineer** and **Machine Learning Expert**.
+Welcome to the official portfolio of **Saumil Patel**, a **Computer Vision Engineer** and **Machine Learning Researcher**.
 
 This portfolio showcases my skills, experience, research highlights, technical expertise, and projects. It demonstrates my work in the areas of computer vision, machine learning, and AI, with a focus on retail analytics, sensor fusion, and real-time systems.
 
@@ -18,13 +18,13 @@ This portfolio showcases my skills, experience, research highlights, technical e
 
 ## About Me
 
-I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**, and **AI-driven solutions**.
+I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, machine manufacturing, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**,**human-machine-interection** and **AI-driven solutions**.
 
 ### Contact Information:
-- **Email**: saumilpatel9091@gmail.com
-- **Phone**: (409) 710-6900
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [linkedin.com/in/saumilpatel](https://linkedin.com/in/saumilpatel)
+- **Email**: saumilp9091@gmail.com
+- **Phone**: (936)-587-9020
+- **GitHub**: [github.com/yourusername](https://github.com/sam02425)
+- **LinkedIn**: [linkedin.com/in/saumilpatel](www.linkedin.com/in/saumil-patel-2a58ab166)
 
 ## Skills
 
@@ -45,6 +45,7 @@ I am a skilled **Computer Vision Engineer** with over 8 years of experience work
 - **Smart Sustainable Cooling System**  
   - **Metrics**: Energy Reduction: 80%, Prediction Accuracy: 94%, Temp Reduction: 12-15°C, System Uptime: 95%
   - **Description**: A sustainable cooling system leveraging deep learning for efficient temperature control.
+
 
 ## Technical Expertise
 
