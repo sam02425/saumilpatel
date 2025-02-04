@@ -63,9 +63,52 @@ I am a skilled **Computer Vision Engineer** with over 8 years of experience work
 
 ## Publications
 
-- **Advanced Computer Vision-Based Retail Analytics**: A novel approach to customer behavior and product movement tracking (2024)
-- **MultiModal Product Classification Using YOLO and OCR Fusion**: A cutting-edge solution for automated retail inventory management (2024)
-- **Role of Computer Vision in Retail Stores**: A comprehensive study (2024)
+## Publications
+
+### **Multi-Modal Product Recognition in Retail Environments: Enhancing Accuracy Through Integrated Vision and OCR Approaches**
+- **Type**: Article
+- **Status**: Full-text available
+- **Published**: January 2025
+- **Journal**: World Journal of Advanced Research and Reviews
+- **Author**: Saumil Patel
+
+### **MultiModal Product Classification Using YOLO and OCR Fusion: A Novel Approach to Automated Retail Inventory Management**
+- **Type**: Preprint
+- **Status**: File available
+- **Published**: December 2024
+- **Author**: Saumil Patel
+
+### **Role of Computer Vision in Retail Stores**
+- **Type**: Thesis
+- **Status**: Full-text available
+- **Published**: December 2024
+- **Author**: Saumil Patel
+
+### **Human Interaction with Autonomous Delivery Robots: Navigating the Intersection of Psychological Acceptance and Societal Integration**
+- **Type**: Conference Paper
+- **Status**: Full-text available
+- **Published**: December 2024
+- **Conference**: AHFE International Conference on Human Factors in Design, Engineering, and Computing (AHFE 2024 Hawaii Edition)
+- **Author**: Saumil Patel
+
+### **Inspection of In-Vehicle Touchscreen Infotainment Display for Different Screen Locations, Menu Types, and Positions**
+- **Type**: Chapter
+- **Status**: Full-text available
+- **Published**: June 2022
+- **Journal**: Lecture Notes in Computer Science
+- **Authors**: Saumil Patel, Yi Liu, Ruobing Zhao, Yueqing Li
+
+### **Human Factor and Ergonomics Evaluation of In-Vehicle Touchscreen Infotainment Display**
+- **Type**: Thesis
+- **Status**: Full-text available
+- **Published**: August 2021
+- **Author**: Saumil Patel
+
+## Project Highlights
+
+- **Advanced Retail Analytics System**: Developed a multi-sensor fusion system for real-time object detection and inventory management with 98.9% accuracy.
+- **Medical Imaging Systems**: Worked on feature extraction for medical devices and optimized real-time processing for high-performance hardware.
+
 
 ## Project Highlights
 
