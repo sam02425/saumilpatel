@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Bar } from 'react-chartjs-2';
 import { Mail, Phone, Github, Linkedin, ChevronDown, ChevronUp, BarChart, Code, BookOpen, Star } from 'lucide-react';
 import './App.css';  // Import the CSS file
-import 'chart.js/auto';  // Automatically registers Chart.js components
 
 
 const Portfolio = () => {
@@ -42,48 +40,20 @@ const Portfolio = () => {
     </div>
   );
 
-  const ResearchHighlight = ({ title, metrics, description, graphData }) => (
+  const ResearchHighlight = ({ title, metrics, description }) => (
     <div className="mb-6 p-4 bg-white rounded-lg border border-gray-200 shadow-md">
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
-      <p className="text-gray-700 mb-4">{description}</p>
-      <Bar data={graphData} />
+      <div className="mb-3">
+        {metrics.map((metric, idx) => (
+          <div key={idx} className="text-sm text-gray-700 mb-1">
+            <strong>{metric.label}:</strong> {metric.value}
+          </div>
+        ))}
+      </div>
+      <p className="text-gray-700">{description}</p>
     </div>
   );
-  const multiViewGraphData = {
-    labels: ['mAP Accuracy', 'FPS', 'Product Classes', 'Inference Time Reduction'],
-    datasets: [{
-      label: 'Performance Metrics',
-      data: [98.9, 55, 538, 15],
-      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
-    }]
-  };
 
-  const coolingSystemGraphData = {
-    labels: ['Energy Reduction', 'Prediction Accuracy', 'Temp Reduction', 'System Uptime'],
-    datasets: [{
-      label: 'Performance Metrics',
-      data: [80, 94, 12, 95],
-      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
-    }]
-  };
-
-  const retailAnalyticsGraphData = {
-    labels: ['Person Detection Accuracy', 'Product Detection Accuracy', 'Processing Speed (FPS)', 'Tracking Accuracy'],
-    datasets: [{
-      label: 'Performance Metrics',
-      data: [89, 85, 25, 93],
-      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
-    }]
-  };
-
-  const productRecognitionGraphData = {
-    labels: ['Product Classification Accuracy', 'Real-time FPS', 'OCR Accuracy', 'Edge Device Memory Usage'],
-    datasets: [{
-      label: 'Performance Metrics',
-      data: [98.9, 55, 94.1, 450],
-      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
-    }]
-  };
 
   // Publication Component
   const Publication = ({ title, type, status, doi, published, authors, journal, conference, link }) => (
@@ -174,23 +144,43 @@ const Portfolio = () => {
       <Section title="Research Highlights" icon={<BarChart className="w-6 h-6" />} defaultExpanded={true}>
         <ResearchHighlight
           title="Multi-View Deep Learning for Retail Object Detection"
+          metrics={[
+            { label: 'mAP Accuracy', value: '98.9%' },
+            { label: 'FPS', value: '45-55' },
+            { label: 'Product Classes', value: '538' },
+            { label: 'Inference Time Reduction', value: '15%' },
+          ]}
           description="Developed a novel approach to object detection combining YOLO and vector databases for retail inventory management."
-          graphData={multiViewGraphData}
         />
         <ResearchHighlight
           title="Smart Sustainable Cooling System"
+          metrics={[
+            { label: 'Energy Reduction', value: '80%' },
+            { label: 'Prediction Accuracy', value: '94%' },
+            { label: 'Temp Reduction', value: '12-15°C' },
+            { label: 'System Uptime', value: '95%' },
+          ]}
           description="Designed a sustainable cooling system leveraging deep learning for efficient temperature control."
-          graphData={coolingSystemGraphData}
         />
         <ResearchHighlight
           title="Advanced Computer Vision-Based Retail Analytics"
+          metrics={[
+            { label: 'Person Detection Accuracy', value: '89%' },
+            { label: 'Product Detection Accuracy', value: '85%' },
+            { label: 'Processing Speed', value: '25 FPS' },
+            { label: 'Tracking Accuracy', value: '93%' },
+          ]}
           description="An innovative system for tracking customer behavior and product movement, offering insights for store layout optimization and inventory management."
-          graphData={retailAnalyticsGraphData}
         />
         <ResearchHighlight
           title="MultiModal Product Classification Using YOLO and OCR Fusion"
+          metrics={[
+            { label: 'Product Classification Accuracy', value: '98.9%' },
+            { label: 'Real-time FPS', value: '45-55 FPS' },
+            { label: 'OCR Accuracy', value: '94.1%' },
+            { label: 'Edge Device Memory Usage', value: '450 MB' },
+          ]}
           description="A novel approach to product classification and automated retail inventory management with YOLO-NAS models and OCR integration."
-          graphData={productRecognitionGraphData}
         />
       </Section>
 
