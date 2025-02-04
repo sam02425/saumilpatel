@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/saumilpatel.github.io/static/css/main.6ec511a5.css",
-    "main.js": "/saumilpatel.github.io/static/js/main.bf68c46b.js",
+    "main.css": "/saumilpatel.github.io/static/css/main.be0deb77.css",
+    "main.js": "/saumilpatel.github.io/static/js/main.2a4f0475.js",
     "index.html": "/saumilpatel.github.io/index.html",
-    "main.6ec511a5.css.map": "/saumilpatel.github.io/static/css/main.6ec511a5.css.map",
-    "main.bf68c46b.js.map": "/saumilpatel.github.io/static/js/main.bf68c46b.js.map"
+    "main.be0deb77.css.map": "/saumilpatel.github.io/static/css/main.be0deb77.css.map",
+    "main.2a4f0475.js.map": "/saumilpatel.github.io/static/js/main.2a4f0475.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec511a5.css",
-    "static/js/main.bf68c46b.js"
+    "static/css/main.be0deb77.css",
+    "static/js/main.2a4f0475.js"
   ]
 }
