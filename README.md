@@ -1,8 +1,8 @@
 # Saumil Patel Portfolio
 
-Welcome to the official portfolio of **Saumil Patel**, a **Computer Vision Engineer** and **Machine Learning Expert**.
+Welcome to the official portfolio of **Saumil Patel**, a **Computer Vision Engineer** and **Machine Learning Researcher**.
 
-This portfolio showcases my skills, experience, research highlights, technical expertise, and projects. It demonstrates my work in the areas of computer vision, machine learning, and AI, with a focus on retail analytics, sensor fusion, and real-time systems.
+This portfolio showcases my skills, experience, research highlights, technical expertise, and projects. It demonstrates my work in the areas of computer vision, machine learning, and AI, with a focus on retail analytics, sensor fusion, human-machine interaction, manufacturing, and real-time systems.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ This portfolio showcases my skills, experience, research highlights, technical e
 
 ## About Me
 
-I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**, and **AI-driven solutions**.
+I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, **manufacturing**, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**, **human-machine interaction**, and **AI-driven solutions**.
 
 ### Contact Information: 
 - **Email**: saumilp9091@gmail.com
@@ -32,7 +32,7 @@ I am a skilled **Computer Vision Engineer** with over 8 years of experience work
 
 - **Computer Vision**: Object Detection, Image Segmentation, Feature Extraction, OpenCV, PIL
 - **Deep Learning**: Neural Networks, CNN, RNN, Transformers
-- **Programming**: Python, JavaScript, C++, React, Node.js
+- **Programming**: Python, JavaScript, React, Node.js
 - **Machine Learning Frameworks**: TensorFlow, PyTorch, Keras
 - **Databases**: SQL, MongoDB, PostgreSQL
 - **DevOps & Cloud**: Docker, Kubernetes, AWS, Azure, Google Cloud
@@ -186,3 +186,20 @@ These datasets were carefully selected to provide a solid foundation for trainin
 - **Medical Imaging Systems**: Worked on feature extraction for medical devices and optimized real-time processing for high-performance hardware.
 
 
+## Education
+
+- **Doctor of Engineering in Industrial and Systems Engineering**  
+  Lamar University, Beaumont TX  
+  *August 2021 – December 2024*
+
+- **Master of Engineering Science in Industrial and Systems Engineering**  
+  Lamar University, Beaumont TX  
+  *January 2017 – August 2021*
+
+- **Master of Business Administration in Project Management**  
+  Northwestern Polytechnic University, Fremont, CA  
+  *August 2014 – December 2015*
+
+- **Bachelor of Engineering in Mechanical Engineering**  
+  Gujarat Technological University, Ahmedabad, India  
+  *September 2009 – August 2013*
