@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Saumil Patel Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official portfolio of **Saumil Patel**, a **Computer Vision Engineer** and **Machine Learning Expert**.
 
-## Available Scripts
+This portfolio showcases my skills, experience, research highlights, technical expertise, and projects. It demonstrates my work in the areas of computer vision, machine learning, and AI, with a focus on retail analytics, sensor fusion, and real-time systems.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Research Highlights](#research-highlights)
+- [Technical Expertise](#technical-expertise)
+- [Publications](#publications)
+- [Project Highlights](#project-highlights)
+- [Installation](#installation)
+- [Deployment](#deployment)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**, and **AI-driven solutions**.
 
-### `npm test`
+### Contact Information:
+- **Email**: saumilpatel9091@gmail.com
+- **Phone**: (409) 710-6900
+- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **LinkedIn**: [linkedin.com/in/saumilpatel](https://linkedin.com/in/saumilpatel)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Skills
 
-### `npm run build`
+- **Computer Vision**: Object Detection, Image Segmentation, Feature Extraction, OpenCV, PIL
+- **Deep Learning**: Neural Networks, CNN, RNN, Transformers
+- **Programming**: Python, JavaScript, C++, React, Node.js
+- **Machine Learning Frameworks**: TensorFlow, PyTorch, Keras
+- **Databases**: SQL, MongoDB, PostgreSQL
+- **DevOps & Cloud**: Docker, Kubernetes, AWS, Azure, Google Cloud
+- **Version Control**: Git, GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Research Highlights
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Multi-View Deep Learning for Retail Object Detection**  
+  - **Metrics**: mAP Accuracy: 98.9%, FPS: 45-55, Product Classes: 538, Inference Time Reduction: 15%
+  - **Description**: A novel approach to object detection combining YOLO and vector databases for retail inventory management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Smart Sustainable Cooling System**  
+  - **Metrics**: Energy Reduction: 80%, Prediction Accuracy: 94%, Temp Reduction: 12-15°C, System Uptime: 95%
+  - **Description**: A sustainable cooling system leveraging deep learning for efficient temperature control.
 
-### `npm run eject`
+## Technical Expertise
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Computer Vision & Machine Learning
+- YOLO, TensorFlow, PyTorch, OpenCV
+- Sensor Fusion, Camera Calibration, Object Detection
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Edge Computing & Deployment
+- NVIDIA Jetson, TensorRT, Model Optimization
+- FAISS, Vector Databases, Real-time Processing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Development & DevOps
+- Python, C++, JavaScript, React
+- Docker, Kubernetes, CI/CD, MLOps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Publications
 
-## Learn More
+- **Advanced Computer Vision-Based Retail Analytics**: A novel approach to customer behavior and product movement tracking (2024)
+- **MultiModal Product Classification Using YOLO and OCR Fusion**: A cutting-edge solution for automated retail inventory management (2024)
+- **Role of Computer Vision in Retail Stores**: A comprehensive study (2024)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Highlights
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Advanced Retail Analytics System**: Developed a multi-sensor fusion system for real-time object detection and inventory management with 98.9% accuracy.
+- **Medical Imaging Systems**: Worked on feature extraction for medical devices and optimized real-time processing for high-performance hardware.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
