@@ -39,18 +39,48 @@ const Portfolio = () => {
     </div>
   );
 
-   // Research Highlight Component
-   const ResearchHighlight = ({ title, metrics, description }) => (
-    <div className="highlight">
-      <h4 className="highlight-title">{title}</h4>
-      <ul className="highlight-metrics">
-        {metrics.map((metric, idx) => (
-          <li key={idx}>{metric}</li>
-        ))}
-      </ul>
-      <p>{description}</p>
+  const ResearchHighlight = ({ title, metrics, description, graphData }) => (
+    <div className="mb-6 p-4 bg-white rounded-lg border border-gray-200 shadow-md">
+      <h3 className="text-lg font-semibold mb-2">{title}</h3>
+      <p className="text-gray-700 mb-4">{description}</p>
+      <Bar data={graphData} />
     </div>
   );
+  const multiViewGraphData = {
+    labels: ['mAP Accuracy', 'FPS', 'Product Classes', 'Inference Time Reduction'],
+    datasets: [{
+      label: 'Performance Metrics',
+      data: [98.9, 55, 538, 15],
+      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
+    }]
+  };
+
+  const coolingSystemGraphData = {
+    labels: ['Energy Reduction', 'Prediction Accuracy', 'Temp Reduction', 'System Uptime'],
+    datasets: [{
+      label: 'Performance Metrics',
+      data: [80, 94, 12, 95],
+      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
+    }]
+  };
+
+  const retailAnalyticsGraphData = {
+    labels: ['Person Detection Accuracy', 'Product Detection Accuracy', 'Processing Speed (FPS)', 'Tracking Accuracy'],
+    datasets: [{
+      label: 'Performance Metrics',
+      data: [89, 85, 25, 93],
+      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
+    }]
+  };
+
+  const productRecognitionGraphData = {
+    labels: ['Product Classification Accuracy', 'Real-time FPS', 'OCR Accuracy', 'Edge Device Memory Usage'],
+    datasets: [{
+      label: 'Performance Metrics',
+      data: [98.9, 55, 94.1, 450],
+      backgroundColor: ['rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(54, 162, 235, 0.6)']
+    }]
+  };
 
   // Publication Component
   const Publication = ({ title, type, status, doi, published, authors, journal, conference, link }) => (
@@ -67,22 +97,22 @@ const Portfolio = () => {
   );
 
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container max-w-5xl mx-auto px-4 py-12">
       {/* Header */}
-      <header className="header">
+      <header className="header text-center mb-12">
         <h1 className="header-title">Saumil Patel</h1>
         <p className="header-subtitle">Computer Vision Engineer & ML Expert</p>
         <div className="social-links">
           <a href="mailto:saumilp9091@gmail.com" className="social-link">
-            <Mail className="icon" />
+            <Mail className="icon w-4 h-4 mr-2" />
             saumilp9091@gmail.com
           </a>
-          <span className="social-link">
-            <Phone className="icon" />
+          <span className="social-link flex items-center">
+            <Phone className="icon w-4 h-4 mr-2" />
             (936)-587-9020
           </span>
           <a href="https://github.com/sam02425" target="_blank" rel="noopener noreferrer" className="social-link">
-            <Github className="icon" />
+            <Github className="icon w-5 h-5" />
           </a>
           <a href="https://www.linkedin.com/in/saumil-patel-2a58ab166/" target="_blank" rel="noopener noreferrer" className="social-link">
             <Linkedin className="icon" />
@@ -137,18 +167,28 @@ const Portfolio = () => {
       </Section>
 
 
-      {/* Research Highlights */}
-      <Section title="Research Highlights" icon={<BarChart className="icon" />} defaultExpanded={true}>
-        <div className="highlight">
-          <h4 className="highlight-title">Multi-View Deep Learning for Retail Object Detection</h4>
-          <ul className="highlight-metrics">
-            <li>mAP Accuracy: 98.9%</li>
-            <li>FPS: 45-55</li>
-            <li>Product Classes: 538</li>
-            <li>Inference Time Reduction: 15%</li>
-          </ul>
-          <p>A novel approach to object detection combining YOLO and vector databases for retail inventory management.</p>
-        </div>
+      {/* Research Highlights Section */}
+      <Section title="Research Highlights" icon={<BarChart className="w-6 h-6" />} defaultExpanded={true}>
+        <ResearchHighlight
+          title="Multi-View Deep Learning for Retail Object Detection"
+          description="Developed a novel approach to object detection combining YOLO and vector databases for retail inventory management."
+          graphData={multiViewGraphData}
+        />
+        <ResearchHighlight
+          title="Smart Sustainable Cooling System"
+          description="Designed a sustainable cooling system leveraging deep learning for efficient temperature control."
+          graphData={coolingSystemGraphData}
+        />
+        <ResearchHighlight
+          title="Advanced Computer Vision-Based Retail Analytics"
+          description="An innovative system for tracking customer behavior and product movement, offering insights for store layout optimization and inventory management."
+          graphData={retailAnalyticsGraphData}
+        />
+        <ResearchHighlight
+          title="MultiModal Product Classification Using YOLO and OCR Fusion"
+          description="A novel approach to product classification and automated retail inventory management with YOLO-NAS models and OCR integration."
+          graphData={productRecognitionGraphData}
+        />
       </Section>
 
       {/* Publications Section */}
