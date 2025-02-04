@@ -66,7 +66,7 @@ const Portfolio = () => {
       {/* About Me */}
       <Section title="About Me" icon={<Code className="icon" />} defaultExpanded={true}>
         <p>
-          I am a skilled **Computer Vision Engineer** with over 8 years of experience working with cutting-edge technologies in various industries, including **retail**, **medical devices**, **manufacturing**, and **fintech**. I specialize in **deep learning**, **sensor fusion**, **real-time analytics**, **human-machine interaction**, and **AI-driven solutions**.
+          I am a skilled Computer Vision Engineer with over 8 years of experience working with cutting-edge technologies in various industries, including retail, medical devices, manufacturing, and fintech. I specialize in deep learning, sensor fusion, real-time analytics, human-machine interaction, and AI-driven solutions.
         </p>
       </Section>
 
@@ -74,16 +74,41 @@ const Portfolio = () => {
       <Section title="Skills" icon={<Code className="icon" />} defaultExpanded={true}>
         <TechStack
           title="Core Skills"
-          items={["Object Detection", "Image Segmentation", "Feature Extraction", "OpenCV", "PIL", "TensorFlow", "PyTorch", "Machine Learning", "Data Analytics"]}
+          items={[
+            "Object Detection", "Image Segmentation", "Feature Extraction", "OpenCV", "PIL", "TensorFlow", "PyTorch", "Machine Learning", "Data Analytics", "Deep Learning", "Calibration", "ETL Pipelines"
+          ]}
         />
       </Section>
 
       {/* Professional Experience */}
       <Section title="Professional Experience" icon={<Star className="icon" />} defaultExpanded={true}>
-        <p>
-          I have worked in diverse industries such as medical devices, manufacturing, and retail, contributing to machine learning pipelines, product development, and process optimization. I have led teams to build real-time object detection systems and have a track record of optimizing systems for improved performance.
-        </p>
+        <h4 className="experience-title">Lamar University – Beaumont, TX</h4>
+        <p><strong>Computer Vision Researcher</strong> | June 2023 - Dec 2024</p>
+        <ul>
+          <li>Developed multi-sensor fusion systems integrating camera, LiDAR, radar, and RFID data for customer behavior analysis.</li>
+          <li>Engineered production ML systems with 98.9% accuracy and optimized inference time by 15% using Pinecone and FAISS.</li>
+          <li>Designed optimal camera placement strategies, implemented calibration pipelines, and automated drift detection.</li>
+        </ul>
+
+        <h4 className="experience-title">Medtronic - Santa Rosa, CA</h4>
+        <p><strong>Sr. Mfg Engineer</strong> | Oct 2022 - June 2023</p>
+        <ul>
+          <li>Led product development and process optimization for the TMVR product, ensuring compliance with ISO 13485 and IEC 62304</li>
+          <li>Applied computer vision techniques for feature extraction and pattern analysis in medical imagery data.</li>
+          <li>Optimized algorithms for real-time performance on embedded systems and GPU-accelerated hardware.</li>
+          <li>Developed deep learning models for intelligent analysis and automated quality control for medical-grade imaging systems.</li>
+        </ul>
+
+        <h4 className="experience-title">Stryker - Mahwah, NJ</h4>
+        <p><strong>Software Engineer</strong> | Jun 2020 - Sep 2022</p>
+        <ul>
+          <li>Supported design control and compliance activities, including technical file remediation and CAPA processes.</li>
+          <li>Utilized machine learning to optimize product testing, predictive maintenance, and improve real-time inspection systems.</li>
+          <li>Developed computer vision algorithms for real-time quality inspection in manufacturing, improving accuracy by 30%.</li>
+          <li>Designed and deployed camera layouts for manufacturing inspection and automated calibration procedures.</li>
+        </ul>
       </Section>
+
 
       {/* Research Highlights */}
       <Section title="Research Highlights" icon={<BarChart className="icon" />} defaultExpanded={true}>
@@ -97,6 +122,66 @@ const Portfolio = () => {
           </ul>
           <p>A novel approach to object detection combining YOLO and vector databases for retail inventory management.</p>
         </div>
+      </Section>
+
+      {/* Publications Section */}
+      <Section title="Publications" icon={<BookOpen className="icon" />} defaultExpanded={true}>
+        <Publication
+          title="Multi-Modal Product Recognition in Retail Environments: Enhancing Accuracy Through Integrated Vision and OCR Approaches"
+          type="Article"
+          status="Full-text available"
+          doi="10.30574/wjarr.2025.25.1.0122"
+          published="January 2025"
+          authors="Saumil Patel"
+          journal="World Journal of Advanced Research and Reviews"
+          link="https://doi.org/10.30574/wjarr.2025.25.1.0122"
+        />
+        <Publication
+          title="MultiModal Product Classification Using YOLO and OCR Fusion: A Novel Approach to Automated Retail Inventory Management"
+          type="Preprint"
+          status="File available"
+          doi="10.13140/RG.2.2.16650.38089"
+          published="December 2024"
+          authors="Saumil Patel"
+          link="https://doi.org/10.13140/RG.2.2.16650.38089"
+        />
+        <Publication
+          title="Role of Computer Vision in Retail Stores"
+          type="Thesis"
+          status="Full-text available"
+          doi="10.13140/RG.2.2.33928.94729"
+          published="December 2024"
+          authors="Saumil Patel"
+          link="https://doi.org/10.13140/RG.2.2.33928.94729"
+        />
+        <Publication
+          title="Human Interaction with Autonomous Delivery Robots: Navigating the Intersection of Psychological Acceptance and Societal Integration"
+          type="Conference Paper"
+          status="Full-text available"
+          doi="10.54941/ahfe1005649"
+          published="December 2024"
+          authors="Saumil Patel"
+          conference="2024 AHFE International Conference on Human Factors in Design, Engineering, and Computing (AHFE 2024 Hawaii Edition)"
+          link="https://doi.org/10.54941/ahfe1005649"
+        />
+        <Publication
+          title="Inspection of In-Vehicle Touchscreen Infotainment Display for Different Screen Locations, Menu Types, and Positions"
+          type="Chapter"
+          status="Full-text available"
+          doi="10.1007/978-3-031-04987-3_18"
+          published="June 2022"
+          authors="Saumil Patel, Yi Liu, Ruobing Zhao, Yueqing Li"
+          journal="Lecture Notes in Computer Science"
+          link="https://doi.org/10.1007/978-3-031-04987-3_18"
+        />
+        <Publication
+          title="Human Factor and Ergonomics Evaluation of In-Vehicle Touchscreen Infotainment Display"
+          type="Thesis"
+          status="Full-text available"
+          published="August 2021"
+          authors="Saumil Patel"
+          link=""
+        />
       </Section>
 
       {/* Datasets */}

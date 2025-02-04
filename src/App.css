@@ -132,3 +132,48 @@ body {
 .dataset-link:hover {
   text-decoration: underline;
 }
+
+.publication {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publication-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.doi-link {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.doi-link:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.highlight-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.highlight-metrics {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.highlight-metrics li {
+  color: #555;
+}
