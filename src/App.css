@@ -1,49 +1,134 @@
-/* General styles */
+/* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f9fafb;
+  background-color: #f7f7f7;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3 {
-  color: #2d3748;
-}
-
-/* Header Styles */
-header {
-  background-color: #edf2f7;
-  padding: 20px 0;
-}
-
-header a {
-  text-decoration: none;
-  color: #2b6cb0;
-}
-
-header a:hover {
-  color: #1a202c;
-}
-
-/* Section styles */
-section {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  margin: 10px 0;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button {
+.header {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-size: 3rem;
+  color: #333;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
   display: flex;
   align-items: center;
+  font-size: 1.1rem;
+  color: #0077b6;
 }
 
-button:hover {
-  background-color: #e2e8f0;
+.icon {
+  margin-right: 8px;
 }
 
-/* Flex layout for icons */
-button .flex {
-  flex: 1;
+/* Section Styles */
+.section-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px;
+  background-color: #e1e1e1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-toggle:hover {
+  background-color: #cfcfcf;
+}
+
+.section-content {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #555;
+}
+
+.tech-stack-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tech-stack-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-item {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.highlight {
+  margin-bottom: 15px;
+}
+
+.highlight-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.highlight-metrics {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.datasets-list {
+  padding-left: 20px;
+}
+
+.dataset-link {
+  color: #0077b6;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.dataset-link:hover {
+  text-decoration: underline;
 }
