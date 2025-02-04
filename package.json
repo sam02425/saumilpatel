@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://sam02425.github.io/saumilpatel.github.io",
+  "homepage": "https://sam02425.github.io/saumilpatel.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
