@@ -39,6 +39,33 @@ const Portfolio = () => {
     </div>
   );
 
+   // Research Highlight Component
+   const ResearchHighlight = ({ title, metrics, description }) => (
+    <div className="highlight">
+      <h4 className="highlight-title">{title}</h4>
+      <ul className="highlight-metrics">
+        {metrics.map((metric, idx) => (
+          <li key={idx}>{metric}</li>
+        ))}
+      </ul>
+      <p>{description}</p>
+    </div>
+  );
+
+  // Publication Component
+  const Publication = ({ title, type, status, doi, published, authors, journal, conference, link }) => (
+    <div className="publication">
+      <h5 className="publication-title">{title}</h5>
+      <p><strong>Type:</strong> {type}</p>
+      <p><strong>Status:</strong> {status}</p>
+      <p><strong>Published:</strong> {published}</p>
+      {journal && <p><strong>Journal:</strong> {journal}</p>}
+      {conference && <p><strong>Conference:</strong> {conference}</p>}
+      <p><strong>DOI:</strong> <a href={link} target="_blank" rel="noopener noreferrer" className="doi-link">{doi}</a></p>
+      <p><strong>Author(s):</strong> {authors}</p>
+    </div>
+  );
+
   return (
     <div className="portfolio-container">
       {/* Header */}
