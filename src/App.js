@@ -74,7 +74,7 @@ const Portfolio = () => {
       {/* Header */}
       <header className="header text-center mb-12">
         <h1 className="header-title">Saumil Patel</h1>
-        <p className="header-subtitle">Computer Vision Engineer & ML Expert</p>
+        <p className="header-subtitle">Computer Vision Engineer & AI Researcher</p>
         <div className="social-links">
           <a href="mailto:saumilp9091@gmail.com" className="social-link">
             <Mail className="icon w-4 h-4 mr-2" />
@@ -96,16 +96,32 @@ const Portfolio = () => {
       {/* About Me */}
       <Section title="About Me" icon={<Code className="icon" />} defaultExpanded={true}>
         <p>
-          I am a skilled Computer Vision Engineer with over 8 years of experience working with cutting-edge technologies in various industries, including retail, medical devices, manufacturing, and fintech. I specialize in deep learning, sensor fusion, real-time analytics, human-machine interaction, and AI-driven solutions.
+          I am a Computer Vision and AI Engineer with over 8 years of experience working with cutting-edge technologies in various industries, including retail, medical devices, manufacturing, and fintech. I specialize in deep learning, sensor fusion, real-time analytics, human-machine interaction, and AI-driven solutions.
         </p>
       </Section>
 
-      {/* Skills */}
-      <Section title="Skills" icon={<Code className="icon" />} defaultExpanded={true}>
+      {/* Technical Expertise */}
+      <Section title="Technical Expertise" icon={<Code className="w-6 h-6" />} defaultExpanded={true}>
         <TechStack
-          title="Core Skills"
+          title="Computer Vision & ML"
           items={[
-            "Object Detection", "Image Segmentation", "Feature Extraction", "OpenCV", "PIL", "TensorFlow", "PyTorch", "Machine Learning", "Data Analytics", "Deep Learning", "Calibration", "ETL Pipelines"
+            "YOLO", "TensorFlow", "PyTorch", "OpenCV",
+            "Sensor Fusion", "Camera Calibration", "Object Detection",
+            "Image Segmentation"
+          ]}
+        />
+        <TechStack
+          title="Edge Computing & Deployment"
+          items={[
+            "NVIDIA Jetson", "TensorRT", "Model Optimization",
+            "FAISS", "Vector Databases", "Real-time Processing"
+          ]}
+        />
+        <TechStack
+          title="Development & DevOps"
+          items={[
+            "Python", "C++", "JavaScript", "React",
+            "Docker", "Kubernetes", "CI/CD", "MLOps"
           ]}
         />
       </Section>
